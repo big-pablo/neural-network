@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+}
+
+.container {
+    display: table;
+    margin: 50px auto;
+}
+
+.empty {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.empty:hover {
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+.empty:active {
+    background-color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.colored {
+    background-color: hsl(0, 0%, 20%);
+}
+
+.colored:hover {
+    background-color: hsl(0, 0%, 25%);
+    cursor: pointer;
+}
+
+.colored:active {
+    background-color: hsl(0, 0%, 30%);
+    cursor: pointer;
+}
+
+.content {
+    height: 50px;
+    width: 50px;
+}
+
+table {
+	border: none;
+    border-collapse: collapse;
+}
